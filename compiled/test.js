@@ -1,0 +1,27 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Rectangle_1 = require("./Shapes/Rectangle");
+const Circle_1 = require("./Shapes/Circle");
+const Triangle_1 = require("./Shapes/Triangle");
+const RightPolygon_1 = require("./Shapes/RightPolygon");
+const Trapezoid_1 = require("./Shapes/Trapezoid");
+// TESTING FOR SHAPES CREATION 
+let newCircle = new Circle_1.Circle(5);
+let newRectangle = new Rectangle_1.Rectangle(2, 2);
+let newTriangle = new Triangle_1.Triangle(4, 2);
+let newPolygon6Side = new RightPolygon_1.RightPolygon(20, 6);
+let newTrapezoid = new Trapezoid_1.Trapezoid(2, 8, 3);
+console.log(" = = = = = = = = = = = ");
+console.log(newCircle.description);
+console.log("Circle area: ", newCircle.area);
+console.log("Circle radius: ", newCircle.radius);
+console.log("Circle circumference: ", newCircle.perimeter);
+console.log("Circle diameter: ", newCircle.diameter);
+console.log(" = = = = = = = = = = = ");
+console.log(newRectangle.description);
+console.log(newTriangle.description);
+console.log(newPolygon6Side.description);
+console.log(newTrapezoid.description);
+console.assert(new Rectangle_1.Rectangle(2, 2).area === 4);
+console.assert(Math.abs(new Circle_1.Circle(1).area - Math.PI) < 1e-12);
+console.assert(new RightPolygon_1.RightPolygon(1, 4).perimeter === 4);
