@@ -6,7 +6,7 @@ import { Rectangle } from './Shapes/Rectangle';<br>
 import { Circle } from './Shapes/Circle';<br>
 import { Triangle } from './Shapes/Triangle';
 
-let newCircle = new Circle(5);
+let newCircle = new Circle(5);<br>
 console.log("Circle area: ", newCircle.area); // 78.53981633974483<br>
 console.log("Circle radius: ", newCircle.radius); // 5<br>
 console.log("Circle circumference: ", newCircle.perimeter); // 31.41592653589793<br>
