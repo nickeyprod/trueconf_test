@@ -9,7 +9,7 @@ export class Rectangle extends Shape {
     height: number;
 
     /**
-     * Creates new instance of Circle.
+     * Creates new instance of Rectangle.
      *
      * @param width - Width of the Rectangle.
      * @param height - Height of the Rectangle.
