@@ -7,7 +7,7 @@ const Shape_1 = require("./Shape");
  */
 class Rectangle extends Shape_1.Shape {
     /**
-     * Creates new instance of Circle.
+     * Creates new instance of Rectangle.
      *
      * @param width - Width of the Rectangle.
      * @param height - Height of the Rectangle.
